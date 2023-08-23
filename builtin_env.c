@@ -1,7 +1,7 @@
 #include "UShell.h"
 
 /**
- * sh_env - Prints the current environment
+ * sh_env - prints the current environment
  * @args: an array of arguments passed to the shell
  * @front: a double pointer to the beginning of args
  *
