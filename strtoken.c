@@ -1,7 +1,7 @@
 #include "UShell.h"
 
 /**
- * tok_len - Locates the first token(del) in string
+ * tok_len - locates the first token(del) in string
  * @s: the string to be searched
  * @del: the delimiter character
  *
