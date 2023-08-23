@@ -1,7 +1,7 @@
 #include "UShell.h"
 
 /**
- * exect_7 - Just a wrapper function
+ * exect_7 - just a wrapper function
  * @args: pointer to array of arguments
  * @front: a pointer to the first args
  * @exe_ret: a placeholder variable
@@ -31,12 +31,12 @@ int exect_7(char **args, char **front, int *exe_ret, int index, int ret)
 }
 
 /**
- * get_args - Gets a command from standard input.
- * @line: A buffer to store the command.
- * @exe_ret: The return value of the last executed command.
+ * get_args - gets a command from standard input
+ * @line: a buffer to store the command
+ * @exe_ret: the return value of the last executed command
  *
- * Return: If an error occurs - NULL.
- *         Otherwise - a pointer to the stored command.
+ * Return: if an error occurs - NULL
+ *         otherwise - a pointer to the stored command
  */
 char *get_args(char *line, int *exe_ret)
 {
@@ -64,14 +64,13 @@ char *get_args(char *line, int *exe_ret)
 
 	return (line);
 }
-
 /**
- * call_args - Partitions operators from commands and calls them.
- * @args: An array of arguments.
- * @front: A double pointer to the beginning of args.
- * @exe_ret: The return value of the parent process' last executed command.
+ * call_args - partitions operators from commands and calls them
+ * @args: an array of arguments
+ * @front: a double pointer to the beginning of args
+ * @exe_ret: the return value of the parent process' last executed command
  *
- * Return: The return value of the last executed command.
+ * Return: the return value of the last executed command
  */
 int call_args(char **args, char **front, int *exe_ret)
 {
@@ -111,12 +110,12 @@ int call_args(char **args, char **front, int *exe_ret)
 }
 
 /**
- * run_args - Calls the execution of a command.
- * @args: An array of arguments.
- * @front: A double pointer to the beginning of args.
- * @exe_ret: The return value of the parent process' last executed command.
+ * run_args - calls the execution of a command
+ * @args: an array of arguments
+ * @front: a double pointer to the beginning of args
+ * @exe_ret: the return value of the parent process' last executed command
  *
- * Return: The return value of the last executed command.
+ * Return: the return value of the last executed command
  */
 int run_args(char **args, char **front, int *exe_ret)
 {
@@ -146,11 +145,11 @@ int run_args(char **args, char **front, int *exe_ret)
 }
 
 /**
- * check_args - Checks if there are any leading ';', ';;', '&&', or '||'.
- * @args: 2D pointer to tokenized commands and arguments.
+ * check_args - checks if there are any leading ';', ';;', '&&', or '||'
+ * @args: 2D pointer to tokenized commands and arguments
  *
- * Return: If a ';', '&&', or '||' is placed at an invalid position - 2.
- *	   Otherwise - 0.
+ * Return: if a ';', '&&', or '||' is placed at an invalid position - 2
+ *	   otherwise - 0
  */
 int check_args(char **args)
 {
