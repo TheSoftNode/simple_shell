@@ -1,7 +1,7 @@
 #include "UShell.h"
 
 /**
- * error_126 - creates an error message for permission denied failures
+ * error_126 - creates an error message for "permission denied" failures
  * @args: an array of arguments passed to the command
  *
  * Return: the error string
@@ -35,7 +35,7 @@ char *error_126(char **args)
 }
 
 /**
- * error_127 - creates an error message for command not found failures
+ * error_127 - creates an error message for command "not found" failures
  * @args: an array of arguments passed to the command
  *
  * Return: the error string
