@@ -2,23 +2,23 @@
 
 /**
  * num_len - counts the digit length of a number
- * @num: the number to measure
+ * @n: the number to measure
  *
  * Return: the digit length
  */
-int num_len(int num)
+int num_len(int n)
 {
 	unsigned int num1;
 	int len = 1;
 
-	if (num < 0)
+	if (n < 0)
 	{
 		len++;
-		num1 = num * -1;
+		num1 = n * -1;
 	}
 	else
 	{
-		num1 = num;
+		num1 = n;
 	}
 	while (num1 > 9)
 	{
