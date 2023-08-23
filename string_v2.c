@@ -4,8 +4,8 @@
  * _strncat - concatenates two strings by
  * copying n number of bytes from
  * the source
- * @dest: destination string - pointer
- * @src: source string - pointer
+ * @dest: a point to destination string 
+ * @src: a pointer to source string
  * @n: number of bytes to copy
  *
  * Return: Pointer to destination string
