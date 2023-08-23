@@ -1,12 +1,12 @@
 #include "UShell.h"
 
 /**
- * handle_line - Partitions a line read from standard input as needed.
- * @line: A pointer to a line read from standard input.
- * @read: The length of line.
+ * handle_line - partitions a line read from standard input as needed
+ * @line: a pointer to a line read from standard input
+ * @read: the length of line
  *
- * Description: Spaces are inserted to separate ";", "||", and "&&".
- *              Replaces "#" with '\0'.
+ * Description: spaces are inserted to separate ";", "||", and "&&"
+ *              replaces "#" with '\0'
  */
 void handle_line(char **line, ssize_t read)
 {
