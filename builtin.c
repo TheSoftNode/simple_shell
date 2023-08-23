@@ -1,5 +1,15 @@
 #include "UShell.h"
 
+/**
+ * exect_8 - Just a wrapper function
+ * @args: pointer to array of arguments
+ * @dir_info: a pointer to the directory information
+ * @new_line: a pointer to new line of text
+ * @oldpwd: the previous working directory
+ * @pwd: the present working directory
+ *
+ * Return: int -> -1
+ */
 int exect_8(char **args, char **dir_info, char *new_line, char *oldpwd, char *pwd)
 {
 	if (!dir_info)
