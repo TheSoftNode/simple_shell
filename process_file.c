@@ -1,7 +1,7 @@
 #include "UShell.h"
 
 /**
- * exec_3 - Just a wrapper function
+ * exec_3 - just a wrapper function
  * @line_size: string size
  * @line: a pointer to the string
  *
@@ -24,7 +24,7 @@ void exec_3(unsigned int line_size, char *line)
 	}
 }
 /**
- * exect_4 - Just a wrapper function
+ * exect_4 - just a wrapper function
  * @args: pointer to array of arguments
  * @front: a pointer to the first args
  * @exe_ret: a placeholder variable
@@ -51,7 +51,7 @@ int exect_4(char **args, char **front, int *exe_ret)
 	return (ret);
 }
 /**
- * exect_5 - Just a wrapper function
+ * exect_5 - just a wrapper function
  * @args: pointer to array of arguments
  * @exe_ret: a placeholder variable
  *
@@ -70,11 +70,11 @@ int exect_5(char **args, int *exe_ret)
 	return (0);
 }
 /**
- * cant_open - If the file doesn't exist or lacks proper permissions, print
- * a cant open error.
- * @file_path: Path to the supposed file.
+ * cant_open - if the file doesn't exist or lacks proper permissions, print
+ * a cant open error
+ * @file_path: path to the supposed file
  *
- * Return: 127.
+ * Return: 127
  */
 int cant_open(char *file_path)
 {
@@ -106,14 +106,14 @@ int cant_open(char *file_path)
 }
 
 /**
- * proc_file_commands - Takes a file and attempts to run the commands stored
- * within.
- * @file_path: Path to the file.
- * @exe_ret: Return value of the last executed command.
+ * proc_file_commands - takes a file and attempts to run the commands stored
+ * within
+ * @file_path: path to the file
+ * @exe_ret: return value of the last executed command
  *
- * Return: If file couldn't be opened - 127.
- *	   If malloc fails - -1.
- *	   Otherwise the return value of the last command ran.
+ * Return: if file couldn't be opened - 127
+ *	   if malloc fails - -1
+ *	   otherwise the return value of the last command ran
  */
 int proc_file_commands(char *file_path, int *exe_ret)
 {
