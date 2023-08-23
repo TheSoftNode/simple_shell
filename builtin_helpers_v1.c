@@ -2,6 +2,8 @@
 
 /**
  * help_env - displays information on the UShell builtin command 'env'
+ * 
+ * Return: void
  */
 void help_env(void)
 {
@@ -12,6 +14,8 @@ void help_env(void)
 
 /**
  * help_setenv - displays information on the UShell builtin command 'setenv'
+ *
+ * Return: void
  */
 void help_setenv(void)
 {
@@ -27,6 +31,8 @@ void help_setenv(void)
 /**
  * help_unsetenv - displays information on the UShell builtin command
  * 'unsetenv'
+ *
+ * Return: void
  */
 void help_unsetenv(void)
 {
