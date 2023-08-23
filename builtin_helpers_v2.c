@@ -2,6 +2,8 @@
 
 /**
  * help_all - displays all possible builtin UShell commands
+ *
+ * Return: void
  */
 void help_all(void)
 {
@@ -24,6 +26,8 @@ void help_all(void)
 
 /**
  * help_alias - displays information on the Ushell builtin command 'alias'
+ *
+ * Return: void
  */
 void help_alias(void)
 {
@@ -46,6 +50,8 @@ void help_alias(void)
 
 /**
  * help_cd - isplays information on the UShell builtin command 'cd'
+ *
+ * Return: void
  */
 void help_cd(void)
 {
@@ -66,6 +72,8 @@ void help_cd(void)
 
 /**
  * help_exit - displays information on the UShell builtin command 'exit'
+ *
+ * Return: void
  */
 void help_exit(void)
 {
@@ -82,6 +90,8 @@ void help_exit(void)
 
 /**
  * help_help - displays information on the UShell builtin command 'help'
+ *
+ * Return void
  */
 void help_help(void)
 {
