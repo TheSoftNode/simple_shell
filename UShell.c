@@ -1,8 +1,8 @@
 #include "UShell.h"
 
 /* initializing the global variables*/
-char *name = "";
-int hist = 0;
+char *name;
+int hist;
 alias_t *aliases;
 
 /**
