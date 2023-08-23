@@ -39,6 +39,8 @@ char **_copyenv(void)
 
 /**
  * free_env - frees the the environment copy
+ * 
+ * Return: void
  */
 void free_env(void)
 {
