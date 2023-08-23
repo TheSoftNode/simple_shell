@@ -1,7 +1,7 @@
 #include "UShell.h"
 
 /**
- * exect_6 - Just a wrapper function
+ * exect_6 - just a wrapper function
  * @path: pointer to path provided
  * @path_copy: a temp variable to hold the path
  * @pwd: the command used
@@ -36,11 +36,11 @@ void exect_6(char *path, char *path_copy, char *pwd)
 	}
 }
 /**
- * get_location - Locates a command in the PATH.
- * @command: The command to locate.
+ * get_location - locates a command in the PATH
+ * @command: the command to locate
  *
- * Return: If an error occurs or the command cannot be located - NULL.
- *         Otherwise - the full pathname of the command.
+ * Return: if an error occurs or the command cannot be located - NULL
+ *         otherwise - the full pathname of the command
  */
 char *get_location(char *command)
 {
@@ -81,12 +81,12 @@ char *get_location(char *command)
 }
 
 /**
- * fill_path_dir - Copies path but also replaces leading/sandwiched/trailing
- *		   colons (:) with current working directory.
- * @path: The colon-separated list of directories.
+ * fill_path_dir - copies path but also replaces leading/sandwiched/trailing
+ *		   colons (:) with current working directory
+ * @path: the colon-separated list of directories
  *
- * Return: A copy of path with any leading/sandwiched/trailing colons replaced
- *	   with the current working directory.
+ * Return: a copy of path with any leading/sandwiched/trailing colons replaced
+ *	   with the current working directory
  */
 char *fill_path_dir(char *path)
 {
@@ -115,11 +115,11 @@ char *fill_path_dir(char *path)
 }
 
 /**
- * get_path_dir - Tokenizes a colon-separated list of
- *                directories into a list_s linked list.
- * @path: The colon-separated list of directories.
+ * get_path_dir - tokenizes a colon-separated list of
+ *                directories into a list_s linked list
+ * @path: the colon-separated list of directories
  *
- * Return: A pointer to the initialized linked list.
+ * Return: a pointer to the initialized linked list
  */
 list_t *get_path_dir(char *path)
 {
