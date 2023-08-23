@@ -17,7 +17,7 @@ void free_args(char **args, char **front)
 
 /**
  * get_pid - gets the current process ID
- * Description: opens the stat file, a space-delimited file containing
+ * Description: opens the stat file; a space-delimited file containing
  *              information about the current process. The PID is the
  *              first word in the file. The function reads the PID into
  *              a buffer and replace the space at the end with a \0 byte
