@@ -1,7 +1,7 @@
 #include "UShell.h"
 
 /**
- * UShell_alias - builtin command that either prints all aliases, specific
+ * sh_alias - builtin command that either prints all aliases, specific
  * aliases, or sets an alias
  * @args: an array of arguments
  * @front: a double pointer to the beginning of args
