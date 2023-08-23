@@ -1,12 +1,12 @@
 #include "UShell.h"
 
 /**
- * handle_args - Gets, calls, and runs the execution of a command.
- * @exe_ret: The return value of the parent process' last executed command.
+ * handle_args - gets, calls, and runs the execution of a command
+ * @exe_ret: the return value of the parent process' last executed command
  *
- * Return: If an end-of-file is read - END_OF_FILE (-2).
- *         If the input cannot be tokenized - -1.
- *         O/w - The exit value of the last executed command.
+ * Return: if an end-of-file is read - END_OF_FILE (-2)
+ *         if the input cannot be tokenized - -1
+ *         O/w - The exit value of the last executed command
  */
 int handle_args(int *exe_ret)
 {
